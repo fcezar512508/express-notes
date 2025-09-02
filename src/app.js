@@ -15,7 +15,7 @@ app.use(cookieParser());
 
 app.get("/", (request, response) => {
   console.log("Server is Runnning");
-  return response.status(200).send({ meesage: "hello world!" });
+  return response.status(200).send({ meesage: "Fernando Raul D. Cezar" });
 });
 
 app.use("/api/note", noteRoute);
